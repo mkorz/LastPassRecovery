@@ -3,7 +3,7 @@
 #### Info
 
 Imagine you set up a [LastPass](https://www.lastpass.com) account, created a fairly complicated password, installed LastPass extension, 
-saved the password for convenience there (bad idea) and a week later you realized that you no longer can recall your master password.
+saved the password for convenience (bad idea) and a week later you realized that you no longer can recall your master password.
 
 This happened to a friend of mine, whom I introduced to LastPass. We tried to reset their password but it did not work.
 
@@ -20,6 +20,8 @@ Fortunately, [Martin Vigo](http://www.martinvigo.com/a-look-into-lastpass/) did 
 
 #### Usage
 Just compile and run. If a password is found, it will be written to the console. Make sure no one is snooping on you ;)
+
+Please note - you have to run the program on ** the very same PC ** and under ** the very same account ** you were using when the password was saved, as the LastPass plugin utilizes [Protected Data](https://msdn.microsoft.com/en-us/library/system.security.cryptography.protecteddata(v=vs.110).aspx) storage.
 
 #### FAQ (short)
 Q: Can I retrieve my master password if I have not saved it on my PC?
