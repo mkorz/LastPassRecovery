@@ -21,7 +21,7 @@ Fortunately, [Martin Vigo](http://www.martinvigo.com/a-look-into-lastpass/) did 
 #### Usage
 Just compile and run. If a password is found, it will be written to the console. Make sure no one is snooping on you ;)
 
-Please note - you have to run the program on ** the very same PC ** and under ** the very same account ** you were using when the password was saved, as the LastPass plugin utilizes [Protected Data](https://msdn.microsoft.com/en-us/library/system.security.cryptography.protecteddata(v=vs.110).aspx) storage.
+Please note - you have to run the program on **the very same PC** and under **the very same account** you were using when the password was saved, as the LastPass plugin utilizes [Protected Data](https://msdn.microsoft.com/en-us/library/system.security.cryptography.protecteddata(v=vs.110).aspx) storage.
 
 #### FAQ (short)
 Q: Can I retrieve my master password if I have not saved it on my PC?
